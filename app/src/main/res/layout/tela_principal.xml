@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:scaleType="fitEnd" />
+
+            <RadioGroup
+                android:id="@+id/rgopcoes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/cadastro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cadastrar" />
+
+                <RadioButton
+                    android:id="@+id/consulta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Consultar" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btcontinuar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Efetuar operacao" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
